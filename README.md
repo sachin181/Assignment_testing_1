@@ -62,7 +62,6 @@ The test suite includes:
 
 ## Key Features
 
-- **Fail-Soft (Task C)**: Fallback policy with risk documentation (see Issue #3 and docs/failure-semantics.md)
 - **No Mockito**: All tests use real `CompletableFuture` instances
 - **Timeout Protection**: All tests complete within 5 seconds
 - **Proper Exception Handling**: Uses `assertThrows` for fail-fast tests

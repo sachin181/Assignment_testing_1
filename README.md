@@ -62,6 +62,7 @@ The test suite includes:
 
 ## Key Features
 
+- **Fail-Fast (Task A)**: Atomic policy—any failure aborts entire operation (see Issue #1)
 - **No Mockito**: All tests use real `CompletableFuture` instances
 - **Timeout Protection**: All tests complete within 5 seconds
 - **Proper Exception Handling**: Uses `assertThrows` for fail-fast tests
